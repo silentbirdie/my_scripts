@@ -1,5 +1,4 @@
-﻿#what is the file?
-
+#what is the file?
 $n=Read-Host ("enter a filepath")
 
 #test the file
@@ -13,5 +12,5 @@ if ($?)
 
 #say it doesn't exist
 
-else ($?)
+ifelse 
 {echo "file doesn't exist"}

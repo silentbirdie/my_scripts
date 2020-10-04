@@ -1,4 +1,5 @@
 ﻿#what is the file?
+
 $n=Read-Host ("enter a filepath")
 
 #test the file

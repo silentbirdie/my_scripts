@@ -12,5 +12,5 @@ if ($?)
 
 #say it doesn't exist
 
-ifelse 
-{echo "file doesn't exist"}
+#ifelse ($n -eq false)
+#{write-output "file doesn't exist"}

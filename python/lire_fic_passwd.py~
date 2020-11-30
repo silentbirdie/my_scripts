@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+#
+#lire et afficher le contenu du fichiers /etc/passwd
+#
+# 1- ouverture du fichiers
+#
+fic_in = open ("/etc/passwd","r")
+#
+# 2 - acces aux donnees du fichiers
+#
+#
+# lire le fichiers globalement
+#
+print(fic_in.readlines())
+print( "=" * 30)
+#
+#3 - fermer le fichiers ( methode close())
+#
+fic_in.close()
+#
+# lire le fichier ligne par ligne
+#
+for ligne in open("/etc/passwd","r"):
+    print(ligne.rstrip()) # methode rstrip() : supprimer le saut de ligne

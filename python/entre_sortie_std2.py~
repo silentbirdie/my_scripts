@@ -1,0 +1,8 @@
+#!/usr/bin/python
+# -*- coding=utf-8 -*-
+#entre_sortie_std.py
+import sys
+chaine = "introduire une chaine :"
+sys.stdout.write(chaine+"\n")while chain != "" :
+    chaine=sys.stdin.readline()
+    sys.stdout.write(chaine)

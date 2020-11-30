@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+#
+# passage d'arguments
+#
+import sys
+for param in sys.argv:
+    print(param)
